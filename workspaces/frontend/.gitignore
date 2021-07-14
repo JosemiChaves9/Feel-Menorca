@@ -1,0 +1,9 @@
+node_modules
+.next
+lib/template/html/css
+lib/template/html/docs
+lib/template/html/js
+lib/template/html/icons
+lib/template/html/vendor
+lib/template/html/img
+.env.local

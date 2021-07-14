@@ -1,0 +1,45 @@
+version: "3"
+services:
+  #mongodb:
+  #  image: mongo:4
+  #  ports:
+  #    - 27017:27017
+  #  command: mongod
+  #  volumes:
+  #    - mongovolume:/data/db
+  #  networks:
+  #    - mb-net
+  backend:
+    image: node:14-alpine
+    networks:
+      - mb-net
+    ports:
+      - "4000:4000"
+      - "9223:9223"
+    #depends_on:
+    #  - mongodb
+    working_dir: /usr/app/src
+    environment: 
+      - CHOKIDAR_USEPOLLING=true
+    volumes:
+      - .:/usr/app/src
+    command: ["yarn", "workspace", "backend", "run", "dev"]
+  frontend:
+    working_dir: /usr/app/src
+    image: node:14-alpine
+    networks:
+      - mb-net
+    ports:
+      - "3000:3000"
+      - "9222:9222"
+    working_dir: /usr/app/src
+    environment: 
+      - CHOKIDAR_USEPOLLING=true
+    volumes:
+      - .:/usr/app/src
+    command: ["yarn", "workspace", "frontend", "run", "dev"]
+#volumes:
+#  mongovolume:
+networks:
+  mb-net:
+    driver: bridge

@@ -1,0 +1,8 @@
+{
+  "name": "@mallorcabootcamp/bsr-types",
+  "types": "./src/index.d.ts",
+  "version": "1.0.5",
+  "repository": {
+    "url": "git://github.com/mallorcabootcamp/beach-sports-rent.git"
+  }
+}

@@ -1,0 +1,53 @@
+@import '../../styles/variables.scss';
+
+.containerFix {
+  background-image: url('https://source.unsplash.com/8wwwDJvehKk/1800x600');
+  background-size: cover;
+}
+
+.pointerCursor {
+  cursor: pointer;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 30%;
+  right: 8%;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dataListFix:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem $secondaryColor;
+  border-radius: 0.4rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.searchButton:active {
+  animation: shake 0.3s cubic-bezier(0.36, 0.07, 0.19, 0.97);
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  25% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  50% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(2px, 0, 0);
+  }
+  100% {
+    transform: translate3d(0px, 0, 0);
+  }
+}

@@ -1,0 +1,44 @@
+$templateColour: green; /*This color is not in use, but is required*/
+@import './variables.scss';
+$primary: $primaryColor;
+$secondary: $secondaryColor;
+@import 'antd/lib/calendar/style/index.css';
+@import 'antd/lib/select/style/index.css';
+@import 'antd/lib/radio/style/index.css';
+@import 'antd/lib/badge/style/index.css';
+@import 'antd/lib/table/style/index.css';
+@import 'antd/lib/date-picker/style/index.css';
+@import 'antd/lib/style/index.css';
+
+@import '../lib/template/scss/core';
+@import './bootstrap-customizations.scss';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.events .ant-badge-status {
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

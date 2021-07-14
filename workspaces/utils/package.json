@@ -1,0 +1,19 @@
+{
+  "name": "@mallorcabootcamp/bsr-utils",
+  "version": "1.0.3",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "repository": {
+    "url": "git://github.com/mallorcabootcamp/beach-sports-rent.git"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "files": [
+    "lib"
+  ]
+}

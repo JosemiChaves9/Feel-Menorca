@@ -1,0 +1,10 @@
+@import '../../styles/variables.scss';
+
+.bgFix {
+  background-image: url('/auth-bg.png');
+}
+
+.closeIcon {
+  color: $primaryColor;
+  cursor: pointer;
+}

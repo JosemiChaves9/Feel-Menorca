@@ -1,0 +1,7 @@
+{
+    "name": "beach-sports-rent",
+    "private": true,
+    "workspaces": [
+        "workspaces/*"
+    ]
+}
