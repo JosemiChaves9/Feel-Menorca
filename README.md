@@ -14,5 +14,5 @@ This app has Docker integrated to development of the app, you can start the imag
 #Links
 You can see a deployed version of this app [here](https://protected-peak-68735.herokuapp.com/).
 
-Created with ❤️  by [Albert Vàzquez](https://github.com/albertvazquezm), [Roberto Álvarez](https://github.com/Ralvgar) and [Jose Miguel Chaves](https://github.com/JosemiChaves9) as a [Mallorca Bootcamp](https://mallorcaboot.camp/) Challenge.
+Created with ❤️  by [Albert Vàzquez](https://github.com/albertvazquezm), [Roberto Álvarez](https://github.com/Ralvgar) and [Jose Miguel Chaves](https://github.com/JosemiChaves9) as a [Mallorca Bootcamp](https://mallorcaboot.camp/) Project.
 
