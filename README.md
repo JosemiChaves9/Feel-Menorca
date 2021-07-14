@@ -11,8 +11,8 @@ Feel Menorca is an app where you can rent a kayak in different beaches of Menorc
 ## Run the container
 This app has Docker integrated to development of the app, you can start the images with simply runing the `make dev` command in the console.
 
-#Links
-You can see a deployed version of this app [here](https://protected-peak-68735.herokuapp.com/).
+## Links
+You can see a deployed version of this app [here](https://protected-peak-68735.herokuapp.com/) (*still in testing*).
 
 Created with ❤️  by [Albert Vàzquez](https://github.com/albertvazquezm), [Roberto Álvarez](https://github.com/Ralvgar) and [Jose Miguel Chaves](https://github.com/JosemiChaves9) as a [Mallorca Bootcamp](https://mallorcaboot.camp/) Project.
 
